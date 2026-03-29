@@ -1,0 +1,7 @@
+INFO
+LIST
+CD dir1
+LIST
+CD ..
+ECHO "socket lab"
+QUIT

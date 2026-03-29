@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Editors and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# C/C++ build artifacts
+build/
+*.o
+*.obj
+*.out
+a.out
+*.exe
+*.dSYM/
+
+# Turbo C artifacts
+TURBOC.$LN
+
+# Project-specific generated binaries
+osisp/lab-2-osisp/lab2/parent
+osisp/lab-2-osisp/lab2/child
+osisp/lab-7-osisp/records.bin
