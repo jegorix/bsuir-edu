@@ -1,0 +1,12 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 00000H 00000H LAB6_TEXT          CODE
+ 00000H 00000H 00000H _DATA              DATA
+ 00000H 003CCH 003CDH DATA               
+ 003D0H 0094CH 0057DH CODE_RM            
+ 00950H 00C16H 002C7H CODE_PM            
+ 00C20H 01C1FH 01000H STACK_A            
+
+Program entry point at 003D:0000
+
