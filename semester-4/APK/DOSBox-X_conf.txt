@@ -510,12 +510,12 @@ vsyncrate = 75
 # Advanced options (see full configuration reference file [dosbox-x.reference.full.conf] for more details):
 # -> cpuid string; processor serial number; double fault; clear trap flag on unhandled int 1; reset on triple fault; always report double fault; always report triple fault; mask stack pointer for enter leave instructions; allow lmsw to exit protected mode; report fdiv bug; enable msr; enable pse; enable cmpxchg8b; enable syscall; ignore undefined msr; interruptible rep string op; dynamic core cache block size; cycle emulation percentage adjust; stop turbo on key; stop turbo after second; use dynamic core with paging on; ignore opcode 63; apmbios pnp; apm power button event; apmbios version; apmbios allow realmode; apmbios allow 16-bit protected mode; apmbios allow 32-bit protected mode; integration device pnp; isapnpport; realbig16
 #
-core               = auto
+core               = normal
 fpu                = true
 rdtsc rate         = 0
 segment limits     = true
 lds wraparound     = true
-cputype            = auto
+cputype            = 386
 cycles             = auto
 cycleup            = 10
 cycledown          = 20
@@ -1425,4 +1425,4 @@ devicehigh  =
 # You can put your MOUNT lines here.
 mount c /Users/macbook/Desktop/dos_projects
 c:
-cd LAB1
+cd BORLANDC\BIN
