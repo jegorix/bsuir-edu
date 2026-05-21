@@ -1,62 +1,97 @@
 # BSUIR Semester 4
 
-Репозиторий с материалами 4 семестра: лабораторными, исходным кодом, отчётами, листингами и курсовой работой.
+Учебный репозиторий с материалами 4 семестра БГУИР: лабораторными работами, исходным кодом, отчётами, листингами и курсовым проектом.
 
-Основная часть кода находится в каталоге `semester-4`, а внутри него материалы разбиты по дисциплинам.
+Основной рабочий каталог: [`semester-4`](./semester-4).
 
-## Структура
+## Что внутри
 
 ```text
 semester-4/
 ├── APK/
 ├── ASM/
+├── infbez&ouis/
 ├── java/
 ├── osisp/
-└── stoler/
+└── schemota/
 ```
 
-### Что где лежит
+## Карта репозитория
 
-- `semester-4/APK` - лабораторные по АПК, в основном исходники и отчёты.
-- `semester-4/ASM` - материалы по ассемблеру, в основном готовые документы.
-- `semester-4/java` - отчёты и материалы по Java.
-- `semester-4/osisp` - самый насыщенный раздел: лабораторные на C, документация, листинги и курсовой проект.
-- `semester-4/stoler` - документы по смежным дисциплинам, в основном `.docx`.
+### `APK`
 
-## Основной раздел: OSISP
+Материалы по АПК: лабораторные по отдельным темам, исходники и связанные файлы по каталогам `lab1` ... `lab6`.
 
-Каталог [`semester-4/osisp`](./semester-4/osisp) содержит:
+### `ASM`
 
-- `lab-1-osisp` ... `lab-8-osisp` - лабораторные работы.
-- `course-work/editor-for-ext4-filesystem` - курсовой проект `ext4tool`.
-- `docs/reports` - собранные отчёты в `pdf/docx`.
-- `LISTING` - листинги исходного кода.
-- `quick_start.md` - краткий сценарий запуска и демонстрации всех лабораторных.
+Раздел с материалами по ассемблеру. В основном здесь лежат готовые документы и сопутствующие файлы.
 
-Если нужно быстро понять, как запускать лабораторные, начинайте с файла [`semester-4/osisp/quick_start.md`](./semester-4/osisp/quick_start.md).
+### `infbez&ouis`
 
-Если интересует курсовой проект, полезные точки входа:
+Документы по двум дисциплинам:
 
-- [`semester-4/osisp/course-work/PROJECT_OVERVIEW.md`](./semester-4/osisp/course-work/PROJECT_OVERVIEW.md)
-- [`semester-4/osisp/course-work/editor-for-ext4-filesystem/README.md`](./semester-4/osisp/course-work/editor-for-ext4-filesystem/README.md)
+- `infbez` - практические и лабораторные по основам информационной безопасности.
+- `ouis` - материалы по ОУИС.
+
+Раздел в основном состоит из готовых `.docx`-файлов.
+
+### `java`
+
+Материалы и отчёты по Java.
+
+### `osisp`
+
+Самый насыщенный раздел репозитория. Здесь собраны:
+
+- лабораторные `lab-1-osisp` ... `lab-8-osisp`
+- курсовая работа `course-work`
+- готовые отчёты в `docs/reports`
+- листинги в `LISTING`
+- сценарий быстрого запуска в `quick_start.md`
+- вспомогательные скрипты, включая генерацию listing-документов
+
+Если нужен быстрый вход в раздел, начинайте с [`semester-4/osisp/quick_start.md`](./semester-4/osisp/quick_start.md).
+
+### `schemota`
+
+Отчёты и дополнительные материалы по схемотехнике: в корне лежат в основном готовые PDF, в `additional` - дополнительные `.docx` и `.pdf`.
+
+## Главное в `osisp`
+
+Ключевые точки входа:
+
+- [`semester-4/osisp/quick_start.md`](./semester-4/osisp/quick_start.md) - короткий сценарий запуска и демонстрации всех лабораторных.
+- [`semester-4/osisp/course-work/PROJECT_OVERVIEW.md`](./semester-4/osisp/course-work/PROJECT_OVERVIEW.md) - обзор курсовой работы.
+- [`semester-4/osisp/course-work/editor-for-ext4-filesystem/README.md`](./semester-4/osisp/course-work/editor-for-ext4-filesystem/README.md) - README проекта `ext4tool`.
+- [`semester-4/osisp/docs/reports`](./semester-4/osisp/docs/reports) - собранные отчёты в `.pdf` и `.docx`.
+- [`semester-4/osisp/LISTING`](./semester-4/osisp/LISTING) - готовые листинги по лабораторным.
+
+Примеры содержимого раздела:
+
+- `lab-1-osisp/lab1` - рекурсивный обход каталогов
+- `lab-4-osisp` - producer/consumer на процессах
+- `lab-5-osisp` - producer/consumer на потоках
+- `lab-6-osisp` - генерация, просмотр и сортировка файлов записей
+- `lab-8-osisp` - TCP-сервер и клиент
+- `course-work/editor-for-ext4-filesystem` - курсовой проект
 
 ## Быстрый старт
 
-### Навигация по репозиторию
+### Открыть структуру семестра
 
 ```bash
 cd semester-4
 ls
 ```
 
-### Пример: открыть раздел OSISP
+### Перейти в OSISP
 
 ```bash
 cd semester-4/osisp
 ls
 ```
 
-### Пример: собрать одну из лабораторных OSISP
+### Собрать одну из лабораторных
 
 ```bash
 cd semester-4/osisp/lab-4-osisp
@@ -64,36 +99,24 @@ make
 ./build/debug/semaphores
 ```
 
-### Пример: открыть quick start по OSISP
+### Открыть сценарий запуска всех лабораторных
 
 ```bash
-sed -n '1,120p' semester-4/osisp/quick_start.md
+sed -n '1,160p' semester-4/osisp/quick_start.md
 ```
 
-## Требования
+## Что важно учитывать
 
-В репозитории нет единой системы сборки для всех предметов сразу. Нужные инструменты зависят от конкретного раздела.
+- Это не единый production-проект, а учебный архив по нескольким дисциплинам.
+- В репозитории смешаны исходники, отчёты, листинги, PDF, DOCX и вспомогательные артефакты.
+- Не для всех разделов нужна сборка: во многих каталогах уже лежат готовые документы.
+- Инструкции внутри вложенных README и `.md` могут быть написаны относительно каталога конкретной лабораторной, а не от корня репозитория.
+- Для части OSISP-лабораторных нужны `gcc`, `make`, POSIX-окружение, а для отдельных задач ещё `pthread` и `ncurses`.
 
-Чаще всего используются:
+## Полезные ссылки
 
-- `gcc`
-- `make`
-- POSIX-окружение
-- `pthread` для части лабораторных OSISP
-- `ncurses` для курсового проекта `ext4tool`
-
-Для разделов с отчётами отдельная сборка не нужна: там лежат готовые `.docx` и `.pdf`.
-
-## Что стоит учитывать
-
-- Это учебный репозиторий, а не единый production-проект.
-- В разных каталогах встречаются как исходники, так и уже собранные артефакты, отчёты и вспомогательные файлы.
-- Некоторые инструкции внутри вложенных файлов могут быть написаны относительно каталога конкретной лабораторной, а не от корня репозитория.
-- Для запуска команд из `semester-4/osisp/quick_start.md` от корня репозитория обычно нужно просто добавить префикс `semester-4/`.
-
-## Полезные точки входа
-
-- [`README.md`](./README.md) - обзор всего репозитория.
-- [`semester-4/osisp/quick_start.md`](./semester-4/osisp/quick_start.md) - запуск и демонстрация лабораторных OSISP.
-- [`semester-4/osisp/course-work/PROJECT_OVERVIEW.md`](./semester-4/osisp/course-work/PROJECT_OVERVIEW.md) - обзор курсового проекта.
+- [`README.md`](./README.md) - обзор репозитория.
+- [`semester-4/osisp/quick_start.md`](./semester-4/osisp/quick_start.md) - запуск лабораторных OSISP.
+- [`semester-4/osisp/course-work/PROJECT_OVERVIEW.md`](./semester-4/osisp/course-work/PROJECT_OVERVIEW.md) - обзор курсовой.
+- [`semester-4/osisp/course-work/editor-for-ext4-filesystem/README.md`](./semester-4/osisp/course-work/editor-for-ext4-filesystem/README.md) - документация `ext4tool`.
 - [`semester-4/osisp/docs/reports`](./semester-4/osisp/docs/reports) - готовые отчёты.
