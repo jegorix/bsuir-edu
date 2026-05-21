@@ -1,0 +1,69 @@
+@startuml
+title Схема взаимодействия с пользователем и внешней средой
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultFontName "Times New Roman"
+skinparam packageStyle rectangle
+skinparam nodesep 160
+skinparam ranksep 180
+
+left to right direction
+
+package "Пользователь и среда запуска" {
+  actor "Пользователь" as User
+
+  rectangle "Терминал\nзапуск команды,\nstdin/stdout,\nncurses,\nклавиши Up/Down, Enter, Esc, q" as Terminal
+}
+
+package "Системная программа" {
+  rectangle "ext4tool\nparse_cli(),\next4_open_image(),\ndashboard_run(),\nmetadata_editor_apply()" as Tool
+}
+
+package "Системные интерфейсы" {
+  rectangle "POSIX\nopen(), close(),\npread(), pwrite(),\nfsync()" as POSIX
+
+  rectangle "ncurses / locale\nтекстовый интерфейс,\nдиалоги, меню,\nлокализация ru/en" as UI
+}
+
+package "Файловая среда" {
+  database "Файл-образ ext4\nExt4Context.image_path\nчтение superblock,\ninode и каталогов" as Image
+
+  database "Резервная копия\n<image>.<timestamp>.bak\nсоздаётся перед записью" as Backup
+}
+
+rectangle "Makefile и GCC\nmake -> build/ext4tool" as Build
+
+usecase " " as SpacerA
+usecase " " as SpacerB
+usecase " " as SpacerC
+usecase " " as SpacerD
+
+User -[hidden]down- Terminal
+Terminal -[hidden]right- Tool
+Tool -[hidden]right- POSIX
+POSIX -[hidden]down- UI
+POSIX -[hidden]right- Image
+Image -[hidden]down- Backup
+Build -[hidden]up- Tool
+Terminal -[hidden]down- SpacerA
+Tool -[hidden]down- SpacerB
+POSIX -[hidden]down- SpacerC
+Image -[hidden]down- SpacerD
+
+User --> Terminal : ввод команды запуска
+Terminal --> Tool : ./build/ext4tool --image <path>\n[--readonly|--write] [--lang ru|en]
+Tool --> Terminal : меню, результаты,\nдиагностика, справка
+Terminal --> User : просмотр результатов\nи ввод параметров
+
+Build --> Tool : сборка исполняемого файла
+
+Tool --> UI : экраны просмотра,\nпоиск и редактирование
+Tool --> POSIX : чтение и запись через\nopen/pread/pwrite/fsync
+
+POSIX --> Image : чтение метаданных ext4
+Tool --> Image : просмотр superblock,\ninode, каталогов,\nпоиск по пути и inode
+POSIX --> Backup : создание backup
+Tool --> Backup : безопасное редактирование\nс резервным копированием
+@enduml

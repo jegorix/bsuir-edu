@@ -1,0 +1,162 @@
+@startuml
+title Диаграмма классов и основных структур ext4tool
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultFontName "Times New Roman"
+skinparam packageStyle rectangle
+skinparam nodesep 55
+skinparam ranksep 70
+left to right direction
+
+class "main.c" as MainC {
+  +main(argc, argv)
+}
+
+class "ext4_io.c" as IoC {
+  +ext4_open_image()
+  +ext4_read_bytes()
+  +ext4_create_backup()
+}
+
+class "ext4_super.c" as SuperC {
+  +ext4_read_primary_super()
+  +ext4_read_group_desc()
+}
+
+class "ext4_inode.c" as InodeC {
+  +ext4_read_inode()
+  +ext4_write_inode_fields()
+}
+
+class "ext4_dir.c" as DirC {
+  +ext4_list_dir_entries()
+  +ext4_lookup_path()
+}
+
+class "metadata_editor.c" as EditorC {
+  +metadata_editor_apply()
+}
+
+class "dashboard.c" as DashboardC {
+  +dashboard_run()
+  +edit_super_metadata()
+  +edit_inode_metadata()
+}
+
+class "util.c" as UtilC {
+  +read_le16()
+  +read_le32()
+  +write_le16()
+  +str_to_u32()
+}
+
+class Ext4Context {
+  +fd : int
+  +image_size : uint64_t
+  +image_path : char[PATH_MAX]
+}
+
+class Ext4SuperView {
+  +block_size : uint32_t
+  +inode_size : uint32_t
+  +blocks_count : uint64_t
+  +volume_name : char[17]
+}
+
+class Ext4GroupDescView {
+  +group_index : uint32_t
+  +inode_table_block : uint64_t
+  +free_blocks_count : uint32_t
+}
+
+class Ext4InodeView {
+  +inode_no : uint32_t
+  +mode : uint16_t
+  +uid : uint32_t
+  +size : uint64_t
+  +flags : uint32_t
+  +is_directory : bool
+}
+
+class Ext4InodeEdit {
+  +set_mode : bool
+  +mode : uint16_t
+  +set_uid : bool
+  +set_flags : bool
+}
+
+class DirEntryView {
+  +inode : uint32_t
+  +name : char[256]
+}
+
+class MetadataUpdateRequest {
+  +target : MetadataTarget
+  +inode : InodeUpdateSpec
+}
+
+class SuperUpdateSpec {
+  +set_volume_name : bool
+  +set_mount_count : bool
+}
+
+class InodeUpdateSpec {
+  +inode_no : uint32_t
+  +fields : Ext4InodeEdit
+}
+
+class MetadataUpdateResult {
+  +success : bool
+  +backup_created : bool
+}
+
+MainC -[hidden]down- IoC
+IoC -[hidden]down- SuperC
+SuperC -[hidden]down- InodeC
+InodeC -[hidden]down- DirC
+DirC -[hidden]down- EditorC
+EditorC -[hidden]down- DashboardC
+DashboardC -[hidden]down- UtilC
+
+Ext4Context -[hidden]down- Ext4SuperView
+Ext4SuperView -[hidden]down- Ext4GroupDescView
+Ext4GroupDescView -[hidden]down- Ext4InodeView
+Ext4InodeView -[hidden]down- DirEntryView
+DirEntryView -[hidden]down- InodeUpdateSpec
+InodeUpdateSpec -[hidden]down- MetadataUpdateRequest
+MetadataUpdateRequest -[hidden]down- MetadataUpdateResult
+
+MainC --> Ext4Context
+MainC --> DashboardC
+
+IoC --> Ext4Context
+SuperC --> Ext4SuperView
+SuperC --> Ext4GroupDescView
+
+InodeC --> Ext4InodeView
+InodeC --> Ext4InodeEdit
+
+DirC --> Ext4InodeView
+DirC --> DirEntryView
+
+EditorC --> MetadataUpdateRequest
+EditorC --> MetadataUpdateResult
+EditorC --> Ext4SuperView
+EditorC --> Ext4InodeView
+
+DashboardC --> Ext4SuperView
+DashboardC --> Ext4GroupDescView
+DashboardC --> Ext4InodeView
+DashboardC --> DirEntryView
+DashboardC --> MetadataUpdateRequest
+
+UtilC --> Ext4SuperView
+UtilC --> Ext4InodeView
+UtilC --> MetadataUpdateRequest
+
+MetadataUpdateRequest --> SuperUpdateSpec
+MetadataUpdateRequest --> InodeUpdateSpec
+InodeUpdateSpec --> Ext4InodeEdit
+@enduml

@@ -1,0 +1,87 @@
+@startuml
+title Схема алгоритма запуска и безопасного редактирования метаданных
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+
+start
+:Установка локали\nsetlocale(LC_ALL, "");
+:Разбор аргументов командной строки\nparse_cli(argc, argv, &image_path,\n&write_mode, &language);
+
+if (Параметры запуска корректны?) then (да)
+else (нет)
+  :Вывод справки или сообщения об ошибке\nprint_usage();
+  stop
+endif
+
+:Открытие образа ext4\nExt4Context ctx;\next4_open_image(&ctx, image_path,\nwrite_mode, err, sizeof(err));
+
+if (Образ открыт?) then (да)
+else (нет)
+  :Вывод open error;
+  stop
+endif
+
+:Чтение основного superblock\nExt4SuperView super;\next4_read_primary_super(&ctx, &super,\nerr, sizeof(err));
+
+if (Основной superblock корректен?) then (да)
+else (нет)
+  :Поиск резервного superblock\next4_find_any_valid_super(&ctx, &super,\nerr, sizeof(err));
+endif
+
+:Проверка возможностей ext4\next4_check_feature_support(&super,\n&force_ro, warn, sizeof(warn));
+
+if (Требуется принудительный readonly?) then (да)
+  :Установка запрета записи\nctx.readonly_forced = true;
+else (нет)
+endif
+
+:Запуск ncurses-интерфейса\ndashboard_run(&ctx, &super, language);
+:Выбор пункта Edit Superblock\nили Edit Inode;
+:Ввод нового значения\nprompt_input();
+:Формирование запроса\nMetadataUpdateRequest request;
+
+if (Режим write разрешён?) then (да)
+else (нет)
+  :Отказ от записи\nmetadata_editor_apply(): readonly;
+  stop
+endif
+
+:Проверка допустимости запроса\nvalidate_super_update()\nили validate_inode_update();
+
+if (Поле и значение допустимы?) then (да)
+else (нет)
+  :Сообщение об ошибке значения;
+  stop
+endif
+
+:Создание резервной копии образа\next4_create_backup(&ctx,\nbackup_path, sizeof(backup_path), err, sizeof(err));
+
+if (Backup создан?) then (да)
+else (нет)
+  :Сообщение об ошибке backup;
+  stop
+endif
+
+if (Цель редактирования?) then (superblock)
+  :Чтение raw superblock\next4_read_bytes(ctx, super->offset, ...);
+  :Запись разрешённых полей\nwrite_le16(), write_le32();
+  :Сохранение superblock\next4_write_bytes() -> pwrite() -> fsync();
+  :Постзаписная проверка\next4_read_superblock();
+else (inode)
+  :Вычисление смещения inode\next4_inode_offset();
+  :Запись разрешённых полей inode\next4_write_inode_fields();
+  :Сохранение inode\next4_write_bytes() -> pwrite() -> fsync();
+  :Постзаписная проверка\next4_read_inode();
+endif
+
+if (Повторно считанные значения совпали?) then (да)
+  :Заполнение результата\nMetadataUpdateResult result;\nsummary = success;
+else (нет)
+  :Сообщение об ошибке верификации;
+endif
+
+:Закрытие образа\next4_close_image(&ctx);
+stop
+@enduml

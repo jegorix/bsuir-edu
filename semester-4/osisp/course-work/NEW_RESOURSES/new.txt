@@ -1,0 +1,64 @@
+Привет, скидываю лист задания и титульник для пояснительной записки. По поводу листа задания: вы придумываете себе название глав вашей записки сами, под ваш проект, то, что вам нужно описать (количество глав у всех одинаковое при этом). Графический материал для всех одинаковый, но если вдруг кому-то какая-то диаграмма или схема не подходит под задачи его проекта, то пускай выберут какую-нибудь другую диаграмму, схему, обсудят этот момент со мной
+
+
+код специальности, ФИО и все остальное вы тоже сами вписываете понятное дело
+
+
+По поводу рекомендаций уточнил еще у вашего лектора. Мои условия на рекомендацию такие: кто раньше срока сдаст все лабы и понимает, что он делает, может объяснить принцип работы кода, программы. Если кто-то будет подходить и молча мне показывать работу программы, не рассказывать как работают некоторые встроенные утилиты линухи, которыми вы пользуетесь при защите (например, find и опции, конвейеры применяемые с ним для сравнения с dirwalk как на первой лабе), то окей я засчитаю лабу, но рекомендации не будет
+
+
+
+По поводу этих букв (СА, Э6, Э1 и т.п.) пока себе не заморачивайте голову, больше ориентируйтесь пока что на то, что у вас там было написано в ведомости прошлого КП
+
+
+то, что там написано UML на плакате это пофиг, это просто обобщенное понятие этой диаграммы, это одно и тоже у вас по сути
+
+
+Вот запрос в ИИшку:
+В VS Code нет встроенной функции «одной кнопкой» для языка C, но это можно сделать с помощью расширений. Самый эффективный способ — использовать связку Doxygen (для анализа кода) и Graphviz (для отрисовки).
+## Способ 1: Автоматическая генерация через Doxygen и Graphviz
+Этот метод позволяет извлечь структуру данных (struct) и связи файлов автоматически.
+
+   1. Установите инструменты:
+   * Скачайте и установите [Graphviz](https://graphviz.org/download/).
+      * Скачайте и установите [Doxygen](https://www.doxygen.nl/download.html).
+   2. Настройте расширение в VS Code:
+   * Установите расширение Doxygen Documentation Generator.
+   3. Создайте конфигурацию:
+   * Запустите doxywizard (идет в комплекте с Doxygen).
+      * В разделе Wizard -> Diagrams выберите «Use dot tool from Graphviz» и отметьте «Class diagram».
+      * В разделе Expert -> Dot убедитесь, что путь к dot.exe указан верно, и включите UML_LOOK = YES для классического вида UML.
+   4. Запуск: После генерации Doxygen создаст HTML-отчет, в котором для каждой структуры будет готова визуальная диаграмма связей. [1, 2, 3, 4] 
+
+## Способ 2: Ручное описание через PlantUML
+Если вам нужна аккуратная архитектурная диаграмма, лучше использовать PlantUML.
+
+   1. Установите расширение: Найдите и установите PlantUML в VS Code.
+   2. Создайте файл: Создайте новый файл с расширением .puml.
+   3. Опишите структуру: Используйте простой синтаксис (например, struct User { ... }).
+   4. Выгрузка:
+   * Нажмите Alt + D для предпросмотра.
+      * Кликните правой кнопкой мыши по окну предпросмотра и выберите Export Current Diagram.
+      * Выберите формат: PNG, SVG или PDF. [5, 6, 7, 8, 9, 10, 11] 
+   
+## Способ 3: Визуализация «на лету» (Extension)
+Для быстрого анализа текущего кода можно использовать расширения вроде Auto-UML или C++ Class Diagram (многие из них поддерживают C-структуры). Они добавляют кнопку «Show Diagram» в контекстное меню файла или заголовка структуры.
+Совет: Для больших проектов на C лучше всего работает Doxygen, так как он автоматически отслеживает include и зависимости между файлами без ручного переписывания кода в UML-нотацию. [2] 
+Нужно ли помочь с настройкой Doxyfile для более детального отображения связей между структурами?
+
+[1] [https://www.reddit.com](https://www.reddit.com/r/dotnet/comments/174lram/is_there_a_way_to_autogenerate_class_diagrams/)
+[2] [https://www.doxygen.nl](https://www.doxygen.nl/manual/diagrams.html)
+[3] [https://stackoverflow.com](https://stackoverflow.com/questions/32559209/generate-full-class-diagram-using-graphviz-and-doxygen)
+[4] [https://arwedus.wordpress.com](https://arwedus.wordpress.com/2019/09/12/adding-uml-diagrams-to-doxygen-documentation/#:~:text=Including%20other%20UML%20diagram%20tool%20output%20*,Select%20%E2%80%9CPNG%E2%80%9D%20as%20file%20format%20and%20save.)
+[5] [https://logrocon.ru](https://logrocon.ru/news/plantuml_diagrams)
+[6] [https://medium.com](https://medium.com/@robertdennyson/creating-c4-and-uml-diagrams-using-plantuml-with-vscode-extension-90032a21ec43)
+[7] [https://medium.com](https://medium.com/@robertdennyson/creating-c4-and-uml-diagrams-using-plantuml-with-vscode-extension-90032a21ec43)
+[8] [https://medium.com](https://medium.com/@robertdennyson/creating-c4-and-uml-diagrams-using-plantuml-with-vscode-extension-90032a21ec43)
+[9] [https://se-education.org](http://se-education.org/guides/tutorials/vscUsefulPlugins.html#:~:text=Export%20Individual%20Diagrams:%20*%20Open%20the%20PlantUML,to%20your%20desired%20location%20%28e.g.%20/docs/images/%20%29.)
+[10] [https://www.youtube.com](https://www.youtube.com/watch?v=0MEs4WrOZmk&t=397)
+[11] [https://medium.com](https://medium.com/data-science/drawing-a-uml-diagram-in-the-vs-code-53c2e67d...
+
+
+
+
+

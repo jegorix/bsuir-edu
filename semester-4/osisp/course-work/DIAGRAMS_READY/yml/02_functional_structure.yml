@@ -1,0 +1,96 @@
+@startuml
+title Схема функциональной структуры программы ext4tool
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam linetype ortho
+skinparam defaultFontName "Times New Roman"
+skinparam packageStyle rectangle
+top to bottom direction
+skinparam nodesep 90
+skinparam ranksep 90
+
+package "Пользовательский уровень" {
+  rectangle "Пользователь" as User
+
+  rectangle "Исполняемый файл\next4tool" as Binary
+}
+
+package "Системная часть программы" {
+  rectangle "main.c\nкоординация общего сценария,\nparse_cli(),\nsetlocale(),\next4_open_image(),\ndashboard_run()" as Main
+
+  rectangle "dashboard.c\nтекстовый ncurses-интерфейс,\nглавное меню,\nдиалоговые окна,\nэкраны просмотра и редактирования" as Dashboard
+
+  rectangle "ext4_super.c\nчтение и разбор superblock,\nпоиск резервных superblock,\nчтение group descriptor,\nпроверка возможностей ext4" as Super
+
+  rectangle "ext4_inode.c /\nmetadata_editor.c\nвычисление смещений inode,\nчтение метаданных inode,\nзапись разрешённых полей,\nвалидация и повторная проверка" as Inode
+
+  rectangle "ext4_dir.c\nпросмотр каталогов,\nresolve path,\nresolve inode,\nsearch by name,\nобход дерева каталогов" as Dir
+
+  rectangle "ext4_io.c\nExt4Context,\nоткрытие и закрытие образа,\nчтение и запись байтов,\nсоздание резервной копии" as IO
+
+  rectangle "util.c / util.h\nlittle-endian преобразования,\nread_le16(), read_le32(),\nwrite_le16(), write_le32(),\nstr_to_u32(), str_to_u16()" as Util
+}
+
+package "Прикладные сценарии" {
+  rectangle "Просмотр метаданных\nsuperblock,\nbackup superblock,\ngroup descriptor,\ninode" as ScenarioView
+
+  rectangle "Навигация и поиск\nпросмотр каталога,\nпоиск по пути,\nпоиск по inode,\nпоиск по имени" as ScenarioSearch
+
+  rectangle "Безопасное редактирование\nизменение superblock,\nизменение inode,\nbackup,\nповторная проверка" as ScenarioEdit
+
+  rectangle "Справка и статистика\nэкран помощи,\nfilesystem usage,\nroot directory statistics" as ScenarioInfo
+}
+
+package "Внешние утилиты" {
+  rectangle "ncurses\nоконный текстовый интерфейс,\nменю,\nформы ввода,\nотрисовка экранов" as Ncurses
+  rectangle "libc / locale\nsetlocale(),\nstrtoul(),\nформатирование строк" as LibC
+}
+
+User -[hidden]down- Binary
+Binary -[hidden]down- Main
+Main -[hidden]down- Dashboard
+Dashboard -[hidden]right- Super
+Super -[hidden]right- Inode
+Inode -[hidden]right- Dir
+Dir -[hidden]right- IO
+Dashboard -[hidden]down- Util
+Util -[hidden]down- ScenarioView
+ScenarioView -[hidden]right- ScenarioSearch
+ScenarioSearch -[hidden]right- ScenarioEdit
+ScenarioEdit -[hidden]right- ScenarioInfo
+ScenarioView -[hidden]down- Ncurses
+Ncurses -[hidden]right- LibC
+
+User --> Binary
+Main --> Super
+Main --> Inode
+Main --> Dir
+Main --> Dashboard
+
+Dashboard --> Util : Использует
+Super --> Util : Использует
+Inode --> Util : Использует
+Dir --> Util : Использует
+
+Dashboard --> Super
+Dashboard --> Inode
+Dashboard --> Dir
+Inode --> IO
+Super --> IO
+Dir --> IO
+
+Inode --> Super
+Dir --> Inode
+
+Dashboard --> ScenarioView
+Super --> ScenarioView
+Inode --> ScenarioEdit
+Dir --> ScenarioSearch
+Dashboard --> ScenarioInfo
+
+ScenarioView --> Ncurses
+ScenarioSearch --> Ncurses
+ScenarioEdit --> Ncurses
+ScenarioInfo --> LibC
+@enduml

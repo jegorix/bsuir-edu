@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3508" height="2480" viewBox="0 0 594.0 420.0">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/>
+  </marker>
+</defs>
+<rect x="0.00" y="0.00" width="594.00" height="420.00" rx="0.00" fill="white" stroke="none" stroke-width="0.55"/>
+<rect x="12.00" y="12.00" width="570.00" height="396.00" rx="0.00" fill="none" stroke="#111" stroke-width="0.60"/>
+<rect x="17.00" y="17.00" width="560.00" height="386.00" rx="0.00" fill="none" stroke="#111" stroke-width="0.35"/>
+<rect x="370.00" y="336.00" width="210.00" height="66.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.45"/>
+<line x1="370.00" y1="348.00" x2="580.00" y2="348.00" stroke="#111" stroke-width="0.35"/>
+<line x1="370.00" y1="366.00" x2="580.00" y2="366.00" stroke="#111" stroke-width="0.35"/>
+<line x1="370.00" y1="384.00" x2="580.00" y2="384.00" stroke="#111" stroke-width="0.35"/>
+<line x1="398.00" y1="384.00" x2="398.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="426.00" y1="384.00" x2="426.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="462.00" y1="384.00" x2="462.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="498.00" y1="384.00" x2="498.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="530.00" y1="384.00" x2="530.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="512.00" y1="336.00" x2="512.00" y2="348.00" stroke="#111" stroke-width="0.30"/>
+<line x1="546.00" y1="336.00" x2="546.00" y2="348.00" stroke="#111" stroke-width="0.30"/>
+<text x="374.00" y="344.00" font-family="Times New Roman, serif" font-size="3.70" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">БГУИР КП 6-05-0611-05 220 СФ</text>
+<text x="516.00" y="344.00" font-family="Times New Roman, serif" font-size="3.50" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лит.</text>
+<text x="550.00" y="344.00" font-family="Times New Roman, serif" font-size="3.50" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Формат А2</text>
+<text x="374.00" y="354.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">Схема функциональной структуры программы</text>
+<text x="374.00" y="376.00" font-family="Times New Roman, serif" font-size="4.10" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">ext4tool</text>
+<text x="374.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Изм.</text>
+<text x="400.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лист</text>
+<text x="428.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">N докум.</text>
+<text x="466.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Подп.</text>
+<text x="502.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Дата</text>
+<text x="534.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лист 1</text>
+<text x="534.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Листов 1</text>
+<text x="374.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Разраб. Новицкий</text>
+<text x="466.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Пров. Благиных</text>
+<text x="28.00" y="30.00" font-family="Times New Roman, serif" font-size="6.20" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">Функциональная структура ext4tool</text>
+<rect x="40.00" y="58.00" width="72.00" height="28.00" rx="5.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="42.00" y="62.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">U</text>
+<text x="76.00" y="71.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Пользователь</text>
+<text x="76.00" y="75.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">клавиатура, терминал</text>
+<rect x="152.00" y="50.00" width="82.00" height="36.00" rx="5.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="154.00" y="54.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">UI</text>
+<text x="193.00" y="67.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">dashboard</text>
+<text x="193.00" y="71.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">ncurses-интерфейс</text>
+<rect x="274.00" y="50.00" width="82.00" height="36.00" rx="5.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="276.00" y="54.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">M</text>
+<text x="315.00" y="67.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">main</text>
+<text x="315.00" y="71.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">запуск и инициализация</text>
+<rect x="410.00" y="54.00" width="82.00" height="30.00" rx="5.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="412.00" y="58.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">OS</text>
+<text x="451.00" y="68.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Linux / POSIX</text>
+<text x="451.00" y="72.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">open, pread, pwrite</text>
+<rect x="78.00" y="128.00" width="92.00" height="34.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="80.00" y="132.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">S</text>
+<text x="124.00" y="144.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">ext4_super</text>
+<text x="124.00" y="148.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">superblock и группы</text>
+<rect x="200.00" y="128.00" width="92.00" height="34.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="202.00" y="132.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">I</text>
+<text x="246.00" y="144.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">ext4_inode</text>
+<text x="246.00" y="148.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">чтение и запись inode</text>
+<rect x="322.00" y="128.00" width="92.00" height="34.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="324.00" y="132.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">D</text>
+<text x="368.00" y="144.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">ext4_dir</text>
+<text x="368.00" y="148.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">каталоги и поиск</text>
+<rect x="78.00" y="212.00" width="92.00" height="34.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="80.00" y="216.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">E</text>
+<text x="124.00" y="228.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">metadata_editor</text>
+<text x="124.00" y="232.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">валидация и запись</text>
+<rect x="200.00" y="212.00" width="92.00" height="34.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="202.00" y="216.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">IO</text>
+<text x="246.00" y="228.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">ext4_io</text>
+<text x="246.00" y="232.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">контекст образа и backup</text>
+<rect x="322.00" y="212.00" width="92.00" height="34.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="324.00" y="216.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">T</text>
+<text x="368.00" y="228.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">util</text>
+<text x="368.00" y="232.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">little-endian и ввод</text>
+<polygon points="468.00,132.00 534.00,132.00 526.00,160.00 460.00,160.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="462.00" y="136.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">F1</text>
+<text x="497.00" y="147.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">ext4-образ</text>
+<polygon points="468.00,218.00 534.00,218.00 526.00,246.00 460.00,246.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="462.00" y="222.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">F2</text>
+<text x="497.00" y="233.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">backup-образ</text>
+<line x1="112.00" y1="72.00" x2="152.00" y2="68.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="274.00" y1="68.00" x2="234.00" y2="68.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="247.00" y="64.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="254.00" y="69.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">запуск</text>
+<line x1="356.00" y1="68.00" x2="410.00" y2="69.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="376.00" y="64.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="383.00" y="70.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">системные вызовы</text>
+<line x1="193.00" y1="86.00" x2="124.00" y2="128.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="193.00" y1="86.00" x2="246.00" y2="128.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="193.00" y1="86.00" x2="368.00" y2="128.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="193.00" y1="86.00" x2="124.00" y2="212.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="124.00" y1="162.00" x2="246.00" y2="212.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="178.00" y="183.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="185.00" y="188.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">чтение</text>
+<line x1="246.00" y1="162.00" x2="246.00" y2="212.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="239.00" y="183.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="246.00" y="188.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">смещения</text>
+<line x1="368.00" y1="162.00" x2="246.00" y2="212.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="300.00" y="183.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="307.00" y="188.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">каталоги</text>
+<line x1="170.00" y1="229.00" x2="200.00" y2="229.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="178.00" y="225.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="185.00" y="230.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">запись</text>
+<line x1="292.00" y1="229.00" x2="460.00" y2="146.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="369.00" y="183.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="376.00" y="189.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">pread/pwrite</text>
+<line x1="292.00" y1="229.00" x2="460.00" y2="232.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="369.00" y="226.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="376.00" y="232.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">копия</text>
+<line x1="322.00" y1="229.00" x2="414.00" y2="229.00" stroke="#111" stroke-width="0.45" stroke-dasharray="3 2"/>
+<text x="368.00" y="225.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">общие функции</text>
+<text x="34.00" y="284.00" font-family="Times New Roman, serif" font-size="4.10" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Связи отражают основные вызовы между модулями и внешними объектами обработки.</text>
+</svg>

@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3508" height="2480" viewBox="0 0 594.0 420.0">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/>
+  </marker>
+</defs>
+<rect x="0.00" y="0.00" width="594.00" height="420.00" rx="0.00" fill="white" stroke="none" stroke-width="0.55"/>
+<rect x="12.00" y="12.00" width="570.00" height="396.00" rx="0.00" fill="none" stroke="#111" stroke-width="0.60"/>
+<rect x="17.00" y="17.00" width="560.00" height="386.00" rx="0.00" fill="none" stroke="#111" stroke-width="0.35"/>
+<rect x="370.00" y="336.00" width="210.00" height="66.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.45"/>
+<line x1="370.00" y1="348.00" x2="580.00" y2="348.00" stroke="#111" stroke-width="0.35"/>
+<line x1="370.00" y1="366.00" x2="580.00" y2="366.00" stroke="#111" stroke-width="0.35"/>
+<line x1="370.00" y1="384.00" x2="580.00" y2="384.00" stroke="#111" stroke-width="0.35"/>
+<line x1="398.00" y1="384.00" x2="398.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="426.00" y1="384.00" x2="426.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="462.00" y1="384.00" x2="462.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="498.00" y1="384.00" x2="498.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="530.00" y1="384.00" x2="530.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="512.00" y1="336.00" x2="512.00" y2="348.00" stroke="#111" stroke-width="0.30"/>
+<line x1="546.00" y1="336.00" x2="546.00" y2="348.00" stroke="#111" stroke-width="0.30"/>
+<text x="374.00" y="344.00" font-family="Times New Roman, serif" font-size="3.70" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">БГУИР КП 6-05-0611-05 220 ДК</text>
+<text x="516.00" y="344.00" font-family="Times New Roman, serif" font-size="3.50" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лит.</text>
+<text x="550.00" y="344.00" font-family="Times New Roman, serif" font-size="3.50" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Формат А2</text>
+<text x="374.00" y="354.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">Диаграмма классов программы</text>
+<text x="374.00" y="376.00" font-family="Times New Roman, serif" font-size="4.10" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">ext4tool</text>
+<text x="374.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Изм.</text>
+<text x="400.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лист</text>
+<text x="428.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">N докум.</text>
+<text x="466.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Подп.</text>
+<text x="502.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Дата</text>
+<text x="534.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лист 1</text>
+<text x="534.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Листов 1</text>
+<text x="374.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Разраб. Новицкий</text>
+<text x="466.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Пров. Благиных</text>
+<text x="28.00" y="30.00" font-family="Times New Roman, serif" font-size="6.20" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">Диаграмма классов и основных структур ext4tool</text>
+<rect x="36.00" y="54.00" width="92.00" height="58.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.55"/>
+<line x1="36.00" y1="64.00" x2="128.00" y2="64.00" stroke="#111" stroke-width="0.35"/>
+<line x1="36.00" y1="93.00" x2="128.00" y2="93.00" stroke="#111" stroke-width="0.35"/>
+<text x="82.00" y="61.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="middle" fill="#111">Ext4Context</text>
+<text x="39.00" y="70.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">fd</text>
+<text x="39.00" y="75.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">image_path</text>
+<text x="39.00" y="80.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">image_size</text>
+<text x="39.00" y="85.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">write_mode</text>
+<text x="39.00" y="90.80" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">readonly_forced</text>
+<text x="39.00" y="100.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">open_image()</text>
+<text x="39.00" y="105.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">read_at()</text>
+<text x="39.00" y="110.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">write_at()</text>
+<text x="39.00" y="115.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">backup()</text>
+<rect x="168.00" y="54.00" width="102.00" height="58.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.55"/>
+<line x1="168.00" y1="64.00" x2="270.00" y2="64.00" stroke="#111" stroke-width="0.35"/>
+<line x1="168.00" y1="93.00" x2="270.00" y2="93.00" stroke="#111" stroke-width="0.35"/>
+<text x="219.00" y="61.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="middle" fill="#111">Ext4SuperView</text>
+<text x="171.00" y="70.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">offset</text>
+<text x="171.00" y="75.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">block_size</text>
+<text x="171.00" y="80.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">inode_size</text>
+<text x="171.00" y="85.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">blocks_count</text>
+<text x="171.00" y="90.80" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">features</text>
+<text x="171.00" y="100.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">read_primary()</text>
+<text x="171.00" y="105.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">find_backup()</text>
+<text x="171.00" y="110.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">check_features()</text>
+<rect x="320.00" y="54.00" width="96.00" height="52.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.55"/>
+<line x1="320.00" y1="64.00" x2="416.00" y2="64.00" stroke="#111" stroke-width="0.35"/>
+<line x1="320.00" y1="87.80" x2="416.00" y2="87.80" stroke="#111" stroke-width="0.35"/>
+<text x="368.00" y="61.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="middle" fill="#111">Ext4GroupDescView</text>
+<text x="323.00" y="70.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">group_index</text>
+<text x="323.00" y="75.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">inode_table</text>
+<text x="323.00" y="80.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">free_blocks</text>
+<text x="323.00" y="85.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">free_inodes</text>
+<text x="323.00" y="94.80" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">read_group_desc()</text>
+<rect x="36.00" y="164.00" width="100.00" height="62.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.55"/>
+<line x1="36.00" y1="174.00" x2="136.00" y2="174.00" stroke="#111" stroke-width="0.35"/>
+<line x1="36.00" y1="213.40" x2="136.00" y2="213.40" stroke="#111" stroke-width="0.35"/>
+<text x="86.00" y="171.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="middle" fill="#111">Ext4InodeView</text>
+<text x="39.00" y="180.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">inode_no</text>
+<text x="39.00" y="185.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">mode</text>
+<text x="39.00" y="190.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">uid</text>
+<text x="39.00" y="195.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">gid</text>
+<text x="39.00" y="200.80" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">size</text>
+<text x="39.00" y="206.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">flags</text>
+<text x="39.00" y="211.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">timestamps</text>
+<text x="39.00" y="220.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">read_inode()</text>
+<text x="39.00" y="225.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">write_inode_fields()</text>
+<rect x="182.00" y="164.00" width="110.00" height="62.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.55"/>
+<line x1="182.00" y1="174.00" x2="292.00" y2="174.00" stroke="#111" stroke-width="0.35"/>
+<line x1="182.00" y1="203.00" x2="292.00" y2="203.00" stroke="#111" stroke-width="0.35"/>
+<text x="237.00" y="171.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="middle" fill="#111">DirectoryEntry</text>
+<text x="185.00" y="180.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">inode</text>
+<text x="185.00" y="185.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">rec_len</text>
+<text x="185.00" y="190.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">name_len</text>
+<text x="185.00" y="195.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">file_type</text>
+<text x="185.00" y="200.80" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">name</text>
+<text x="185.00" y="210.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">list_dir()</text>
+<text x="185.00" y="215.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">lookup_path()</text>
+<text x="185.00" y="220.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">find_by_name()</text>
+<rect x="338.00" y="164.00" width="112.00" height="68.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.55"/>
+<line x1="338.00" y1="174.00" x2="450.00" y2="174.00" stroke="#111" stroke-width="0.35"/>
+<line x1="338.00" y1="197.80" x2="450.00" y2="197.80" stroke="#111" stroke-width="0.35"/>
+<text x="394.00" y="171.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="middle" fill="#111">MetadataEditRequest</text>
+<text x="341.00" y="180.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">target</text>
+<text x="341.00" y="185.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">field</text>
+<text x="341.00" y="190.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">new_value</text>
+<text x="341.00" y="195.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">inode_no</text>
+<text x="341.00" y="204.80" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">validate()</text>
+<text x="341.00" y="210.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">apply_super()</text>
+<text x="341.00" y="215.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">apply_inode()</text>
+<text x="341.00" y="220.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">verify()</text>
+<rect x="112.00" y="276.00" width="106.00" height="54.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.55"/>
+<line x1="112.00" y1="286.00" x2="218.00" y2="286.00" stroke="#111" stroke-width="0.35"/>
+<line x1="112.00" y1="304.60" x2="218.00" y2="304.60" stroke="#111" stroke-width="0.35"/>
+<text x="165.00" y="283.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="middle" fill="#111">Dashboard</text>
+<text x="115.00" y="292.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">language</text>
+<text x="115.00" y="297.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">selected_item</text>
+<text x="115.00" y="302.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">readonly/write</text>
+<text x="115.00" y="311.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">show_menu()</text>
+<text x="115.00" y="316.80" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">show_dialog()</text>
+<text x="115.00" y="322.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">show_result()</text>
+<rect x="300.00" y="276.00" width="90.00" height="48.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.55"/>
+<line x1="300.00" y1="286.00" x2="390.00" y2="286.00" stroke="#111" stroke-width="0.35"/>
+<line x1="300.00" y1="299.40" x2="390.00" y2="299.40" stroke="#111" stroke-width="0.35"/>
+<text x="345.00" y="283.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="middle" fill="#111">Util</text>
+<text x="303.00" y="292.00" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">le16/le32/le64</text>
+<text x="303.00" y="297.20" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">parse_uint</text>
+<text x="303.00" y="306.40" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">read_le()</text>
+<text x="303.00" y="311.60" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">format_time()</text>
+<text x="303.00" y="316.80" font-family="Times New Roman, serif" font-size="3.25" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">parse_input()</text>
+<line x1="128.00" y1="83.00" x2="168.00" y2="83.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="141.00" y="79.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="148.00" y="84.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">uses</text>
+<line x1="270.00" y1="83.00" x2="320.00" y2="80.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="288.00" y="77.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="295.00" y="83.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">defines</text>
+<polyline points="219.00,112.00 219.00,142.00 86.00,164.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="145.50" y="134.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="152.50" y="139.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">inode params</text>
+<line x1="86.00" y1="226.00" x2="182.00" y2="195.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="127.00" y="206.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="134.00" y="212.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">blocks</text>
+<polyline points="394.00,164.00 394.00,140.00 86.00,195.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="233.00" y="175.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="240.00" y="181.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">edit inode</text>
+<polyline points="394.00,164.00 394.00,122.00 219.00,112.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="299.50" y="134.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="306.50" y="139.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">edit super</text>
+<line x1="165.00" y1="276.00" x2="86.00" y2="226.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="118.50" y="247.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="125.50" y="252.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">view</text>
+<line x1="165.00" y1="276.00" x2="237.00" y2="226.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="194.00" y="247.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="201.00" y="252.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">search</text>
+<line x1="218.00" y1="303.00" x2="338.00" y2="198.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="271.00" y="246.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="278.00" y="252.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">edit</text>
+<line x1="390.00" y1="300.00" x2="450.00" y2="198.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="413.00" y="245.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="420.00" y="250.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">parse</text>
+<polyline points="82.00,112.00 56.00,252.00 165.00,276.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="116.50" y="190.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="123.50" y="195.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">context</text>
+<text x="34.00" y="348.00" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Примечание – диаграмма отражает основные структуры данных и модули C-программы, выполняющие роль классов в проектной модели.</text>
+</svg>

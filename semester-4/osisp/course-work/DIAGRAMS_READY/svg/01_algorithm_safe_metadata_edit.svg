@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3508" height="2480" viewBox="0 0 594.0 420.0">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/>
+  </marker>
+</defs>
+<rect x="0.00" y="0.00" width="594.00" height="420.00" rx="0.00" fill="white" stroke="none" stroke-width="0.55"/>
+<rect x="12.00" y="12.00" width="570.00" height="396.00" rx="0.00" fill="none" stroke="#111" stroke-width="0.60"/>
+<rect x="17.00" y="17.00" width="560.00" height="386.00" rx="0.00" fill="none" stroke="#111" stroke-width="0.35"/>
+<rect x="370.00" y="336.00" width="210.00" height="66.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.45"/>
+<line x1="370.00" y1="348.00" x2="580.00" y2="348.00" stroke="#111" stroke-width="0.35"/>
+<line x1="370.00" y1="366.00" x2="580.00" y2="366.00" stroke="#111" stroke-width="0.35"/>
+<line x1="370.00" y1="384.00" x2="580.00" y2="384.00" stroke="#111" stroke-width="0.35"/>
+<line x1="398.00" y1="384.00" x2="398.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="426.00" y1="384.00" x2="426.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="462.00" y1="384.00" x2="462.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="498.00" y1="384.00" x2="498.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="530.00" y1="384.00" x2="530.00" y2="402.00" stroke="#111" stroke-width="0.30"/>
+<line x1="512.00" y1="336.00" x2="512.00" y2="348.00" stroke="#111" stroke-width="0.30"/>
+<line x1="546.00" y1="336.00" x2="546.00" y2="348.00" stroke="#111" stroke-width="0.30"/>
+<text x="374.00" y="344.00" font-family="Times New Roman, serif" font-size="3.70" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">БГУИР КП 6-05-0611-05 220 СА</text>
+<text x="516.00" y="344.00" font-family="Times New Roman, serif" font-size="3.50" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лит.</text>
+<text x="550.00" y="344.00" font-family="Times New Roman, serif" font-size="3.50" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Формат А2</text>
+<text x="374.00" y="354.00" font-family="Times New Roman, serif" font-size="4.20" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">Схема алгоритма безопасного редактирования метаданных</text>
+<text x="374.00" y="376.00" font-family="Times New Roman, serif" font-size="4.10" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">ext4tool</text>
+<text x="374.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Изм.</text>
+<text x="400.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лист</text>
+<text x="428.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">N докум.</text>
+<text x="466.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Подп.</text>
+<text x="502.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Дата</text>
+<text x="534.00" y="392.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Лист 1</text>
+<text x="534.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Листов 1</text>
+<text x="374.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Разраб. Новицкий</text>
+<text x="466.00" y="400.00" font-family="Times New Roman, serif" font-size="3.20" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Пров. Благиных</text>
+<text x="28.00" y="30.00" font-family="Times New Roman, serif" font-size="6.20" font-weight="bold" font-style="normal" text-anchor="start" fill="#111">Алгоритм безопасного редактирования метаданных ext4</text>
+<rect x="58.00" y="52.00" width="52.00" height="14.00" rx="7.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="60.00" y="56.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">A01</text>
+<text x="84.00" y="60.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Начало</text>
+<polygon points="60.00,78.00 116.00,78.00 108.00,98.00 52.00,98.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="54.00" y="82.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">B01</text>
+<text x="84.00" y="87.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Получить запрос</text>
+<text x="84.00" y="91.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">редактирования</text>
+<polygon points="84.00,112.00 120.00,126.00 84.00,140.00 48.00,126.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="50.00" y="116.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">C01</text>
+<text x="84.00" y="127.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Режим write разрешён?</text>
+<polygon points="84.00,158.00 120.00,171.00 84.00,184.00 48.00,171.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="50.00" y="162.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">D01</text>
+<text x="84.00" y="172.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Проверить совместимость ext4</text>
+<rect x="48.00" y="204.00" width="72.00" height="24.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="50.00" y="208.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">E01</text>
+<text x="84.00" y="215.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Проверить поле и новое</text>
+<text x="84.00" y="219.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">значение</text>
+<rect x="48.00" y="244.00" width="72.00" height="24.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="50.00" y="248.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">F01</text>
+<text x="84.00" y="257.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Создать backup образа</text>
+<polygon points="84.00,286.00 120.00,299.00 84.00,312.00 48.00,299.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="50.00" y="290.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">G01</text>
+<text x="84.00" y="300.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Backup создан?</text>
+<polygon points="204.00,112.00 278.00,112.00 270.00,134.00 196.00,134.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="198.00" y="116.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">C04</text>
+<text x="237.00" y="124.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Сообщить о запрете записи</text>
+<polygon points="204.00,158.00 278.00,158.00 270.00,180.00 196.00,180.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="198.00" y="162.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">D04</text>
+<text x="237.00" y="170.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Перейти в readonly или отказать</text>
+<polygon points="204.00,204.00 278.00,204.00 270.00,226.00 196.00,226.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="198.00" y="208.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">E04</text>
+<text x="237.00" y="216.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Сообщить об ошибке значения</text>
+<polygon points="204.00,286.00 278.00,286.00 270.00,308.00 196.00,308.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="198.00" y="290.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">G04</text>
+<text x="237.00" y="298.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Сообщить об ошибке backup</text>
+<polygon points="382.00,72.00 424.00,85.00 382.00,98.00 340.00,85.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="342.00" y="76.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">H07</text>
+<text x="382.00" y="84.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Определить объект: superblock или</text>
+<text x="382.00" y="88.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">inode</text>
+<rect x="304.00" y="126.00" width="78.00" height="22.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="306.00" y="130.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">I06</text>
+<text x="343.00" y="138.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Прочитать raw superblock</text>
+<rect x="420.00" y="126.00" width="78.00" height="22.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="422.00" y="130.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">I09</text>
+<text x="459.00" y="138.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Прочитать inode</text>
+<rect x="304.00" y="172.00" width="78.00" height="24.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="306.00" y="176.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">J06</text>
+<text x="343.00" y="183.04" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Изменить разрешённые поля</text>
+<text x="343.00" y="187.76" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">superblock</text>
+<rect x="420.00" y="172.00" width="78.00" height="24.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="422.00" y="176.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">J09</text>
+<text x="459.00" y="185.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Изменить разрешённые поля inode</text>
+<rect x="304.00" y="220.00" width="78.00" height="22.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="306.00" y="224.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">K06</text>
+<text x="343.00" y="232.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Записать superblock</text>
+<rect x="420.00" y="220.00" width="78.00" height="22.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="422.00" y="224.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">K09</text>
+<text x="459.00" y="232.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Записать inode</text>
+<rect x="304.00" y="266.00" width="78.00" height="22.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="306.00" y="270.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">L06</text>
+<text x="343.00" y="278.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Повторно считать superblock</text>
+<rect x="420.00" y="266.00" width="78.00" height="22.00" rx="0.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="422.00" y="270.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">L09</text>
+<text x="459.00" y="278.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Повторно считать inode</text>
+<polygon points="399.00,314.00 454.00,328.00 399.00,342.00 344.00,328.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="346.00" y="318.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">M08</text>
+<text x="399.00" y="329.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Повторно считанные значения совпали?</text>
+<polygon points="230.00,352.00 308.00,352.00 300.00,374.00 222.00,374.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="224.00" y="356.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">N04</text>
+<text x="265.00" y="364.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Сообщить об ошибке верификации</text>
+<polygon points="428.00,352.00 506.00,352.00 498.00,374.00 420.00,374.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="422.00" y="356.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">N09</text>
+<text x="463.00" y="364.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Вывести сообщение об успехе</text>
+<rect x="444.00" y="388.00" width="48.00" height="14.00" rx="7.00" fill="white" stroke="#111" stroke-width="0.60"/>
+<text x="446.00" y="392.00" font-family="Times New Roman, serif" font-size="2.80" font-weight="normal" font-style="italic" text-anchor="start" fill="#111">Z09</text>
+<text x="468.00" y="396.40" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">Конец</text>
+<line x1="84.00" y1="66.00" x2="84.00" y2="78.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="84.00" y1="98.00" x2="84.00" y2="112.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="120.00" y1="126.00" x2="196.00" y2="123.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="151.00" y="120.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="158.00" y="126.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">нет</text>
+<line x1="84.00" y1="140.00" x2="84.00" y2="158.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="77.00" y="145.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="84.00" y="150.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">да</text>
+<line x1="120.00" y1="171.00" x2="196.00" y2="169.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="151.00" y="166.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="158.00" y="171.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">нет</text>
+<line x1="84.00" y1="184.00" x2="84.00" y2="204.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="77.00" y="190.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="84.00" y="195.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">да</text>
+<line x1="120.00" y1="216.00" x2="196.00" y2="215.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="151.00" y="211.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="158.00" y="217.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">нет</text>
+<line x1="84.00" y1="228.00" x2="84.00" y2="244.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="77.00" y="232.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="84.00" y="237.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">да</text>
+<line x1="84.00" y1="268.00" x2="84.00" y2="286.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="120.00" y1="299.00" x2="196.00" y2="297.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="151.00" y="294.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="158.00" y="299.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">нет</text>
+<polyline points="84.00,312.00 84.00,330.00 340.00,330.00 340.00,98.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<text x="110.00" y="326.00" font-family="Times New Roman, serif" font-size="3.40" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">да</text>
+<polyline points="278.00,123.00 278.00,389.00 444.00,389.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<polyline points="278.00,169.00 278.00,389.00 444.00,389.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<polyline points="278.00,215.00 278.00,389.00 444.00,389.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<polyline points="278.00,297.00 278.00,389.00 444.00,389.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="382.00" y1="85.00" x2="343.00" y2="126.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="355.50" y="101.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="362.50" y="107.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">super</text>
+<line x1="424.00" y1="85.00" x2="459.00" y2="126.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="434.50" y="101.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="441.50" y="107.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">inode</text>
+<line x1="343.00" y1="148.00" x2="343.00" y2="172.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="459.00" y1="148.00" x2="459.00" y2="172.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="343.00" y1="196.00" x2="343.00" y2="220.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="459.00" y1="196.00" x2="459.00" y2="220.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="343.00" y1="242.00" x2="343.00" y2="266.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="459.00" y1="242.00" x2="459.00" y2="266.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="343.00" y1="288.00" x2="382.00" y2="314.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="459.00" y1="288.00" x2="418.00" y2="314.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<line x1="344.00" y1="328.00" x2="308.00" y2="363.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="319.00" y="341.50" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="326.00" y="347.00" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">нет</text>
+<line x1="454.00" y1="328.00" x2="463.00" y2="352.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<rect x="451.50" y="336.00" width="14.00" height="6.00" rx="0.00" fill="white" stroke="none" stroke-width="0.00"/>
+<text x="458.50" y="341.50" font-family="Times New Roman, serif" font-size="3.30" font-weight="normal" font-style="normal" text-anchor="middle" fill="#111">да</text>
+<line x1="506.00" y1="363.00" x2="444.00" y2="395.00" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<polyline points="308.00,363.00 308.00,395.00 444.00,395.00" fill="none" stroke="#111" stroke-width="0.45" marker-end="url(#arrow)"/>
+<text x="28.00" y="310.00" font-family="Times New Roman, serif" font-size="4.00" font-weight="normal" font-style="normal" text-anchor="start" fill="#111">Примечание – запись выполняется только после backup и завершается повторным чтением изменённой структуры.</text>
+</svg>
