@@ -12,6 +12,7 @@ semester-4/
 ├── ASM/
 ├── infbez&ouis/
 ├── java/
+├── marketing/
 ├── osisp/
 └── schemota/
 ```
